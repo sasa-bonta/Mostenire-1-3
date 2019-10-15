@@ -54,9 +54,11 @@ public class PizzaMargherita extends Pizza {
     @Override
     public String toString() {
         return
-                "Greutate : " +getWeight()+ ",  Diametru : " +getDiametr()+
-                ", Livrare : " +getLivrare()+ ", Pret : " +getPrice()+
-                "; Ingrediente : " +ingredient1+ ", " +ingredient2+ ", " +ingredient3+
-                 ", " +ingredient4+ "";
+                "Greutate : " +getWeight()+
+                ",  Diametru : " +getDiametr()+
+                ", Livrare : " +getLivrare()+
+                ", Pret : " +getPrice()+
+                "; Ingrediente : " +ingredient1+ ", " +ingredient2+
+                ", " +ingredient3+  ", " +ingredient4+ "";
     }
 }

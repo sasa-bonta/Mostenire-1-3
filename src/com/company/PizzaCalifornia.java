@@ -54,9 +54,13 @@ public class PizzaCalifornia extends Pizza{
     @Override
     public String toString() {
         return
-                "Greutate :" +getWeight()+ ",  Diametru : " +getDiametr()+
-                ", Livrare : " +getLivrare()+ ", Pret : " +getPrice()+
-                "; Ingrediente[kg] : Mustar : " +mustard+ ", Ricotta : " +ricotta+
-                ", Pastet : " +pate+ ", Chiper Rosu : " +redPepper+ "";
+                "Greutate :" +getWeight()+
+                ",  Diametru : " +getDiametr()+
+                ", Livrare : " +getLivrare()+
+                ", Pret : " +getPrice()+
+                "; Ingrediente[kg] : Mustar : " +mustard+
+                ", Ricotta : " +ricotta+
+                ", Pastet : " +pate+
+                ", Chiper Rosu : " +redPepper+ "";
     }
 }
